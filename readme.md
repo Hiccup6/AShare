@@ -8,23 +8,6 @@
 ## 安装注意事项
 如果直链作为第三方资源站的引用，需要在资源站的头部加上如下meta
 ```
-<meta name=referrer content=never>
-```
-## 界面演示
-![19.png](https://img.wx-app.vip/buffer/b5aa2aa807c03d0020cb5d067ab0ac0675fc99d5c285e8036d6c0a59ca27dbb8.png)
-
-![9.png](https://img.wx-app.vip/buffer/adf0a11a13d5e8e23af624e22933ab6bc9da6765ab84c83b5c71012ccbbeedbc.png)
-
-![10.png](https://img.wx-app.vip/buffer/69de45184438d7e2b685ac052fd98f3825d1461266912cfb34b2b6654d1c8d60.png)
-
-![11.png](https://img.wx-app.vip/buffer/12f278b849728dd75e694d86e6c7c3a4a3e6925fc82527cb0d8a78c576a99c4f.png)
-
-![12.png](https://img.wx-app.vip/buffer/f0d6091431eb143615c3181bfe15d2c0fef6cf3520d142038a556c339858e8a1.png)
-
-![13.png](https://img.wx-app.vip/buffer/3bed6aea8ce34662224ba7fe065aac76f8a03f9fb426277ba9245e41d6b8cb0b.png)
-
-![14.png](https://img.wx-app.vip/buffer/15ea95f315828c62f1660bd05406e119cdc33541f0bd90ce65b489ffcd146a66.png)
-
 
 ## 直链演示
 ```
@@ -72,7 +55,7 @@ https://one.blob.core.chinacloudapi.cn/video/AShare.exe
 
 #linux版本下载地址：
 
-https://one.blob.core.chinacloudapi.cn/video/AShare
+https://cdn.atusu.cn/aliy/AShare
 
 ```
 
