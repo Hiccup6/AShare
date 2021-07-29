@@ -89,14 +89,20 @@ http://127.0.0.1:5201
 
 
 
-第二种安装方式
+
+
+### 第二种安装方式
 下载程序二进制：
 
 mkdir -p /opt/AShare/
+
 wget -O /opt/AShare/AShare_linux_amd64 https://media.cooluc.com/source/AShare/AShare_linux_amd64
+
 chmod 0755 /opt/AShare/AShare_linux_amd64
+
 创建 systemd 启动脚本（不要迷惑，就是直接复制粘贴到终端）：
 
+```
 cat >/lib/systemd/system/AShare.service <<EOF
 [Unit]
 Description=AShare service
@@ -112,6 +118,9 @@ KillMode=process
 [Install]
 WantedBy=multi-user.target
 EOF
+                                              
+```
+
 启动进程 & 开机自启
 
 systemctl start AShare   # 启动程序
